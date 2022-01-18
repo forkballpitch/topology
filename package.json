@@ -1,0 +1,27 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "cytoscape": "3.17.1",
+    "cytoscape-context-menus": "4.0.0",
+    "cytoscape-cose-bilkent": "4.1.0",
+    "cytoscape-dagre": "2.3.2",
+    "cytoscape-expand-collapse": "4.0.0",
+    "cytoscape-navigator": "2.0.1",
+    "cytoscape-node-html-label": "1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div style="display: flex;">
+      <div style="flex: 50%;">
+        <b id="collapseAll" style="cursor: pointer; color: darkred;"
+          >Collapse all</b
+        >
+        |
+        <b id="expandAll" style="cursor: pointer; color: darkslateblue;"
+          >Expand all</b
+        >
+      </div>
+      <div style="flex: 50%; text-align: right;">
+        <b id="adminView" style="cursor: pointer; color: #124191;"
+          >Administrative</b
+        >
+        |
+        <b id="opView" style="cursor: pointer; color: #124191;">Operational</b>
+        |
+        <b id="lifecycleView" style="cursor: pointer; color: #124191;"
+          >Lifecycle</b
+        >
+        |
+        <b id="usageView" style="cursor: pointer; color: #124191;">Usage</b>
+      </div>
+    </div>
+
+    <div id="cy"></div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
